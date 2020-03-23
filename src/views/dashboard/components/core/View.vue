@@ -11,7 +11,7 @@
     name: 'DashboardCoreView',
 
     components: {
-      DashboardCoreFooter: () => import('./Footer'),
+      DashboardCoreFooter: () => import('./Footer.vue'),
     },
   }
 </script>
