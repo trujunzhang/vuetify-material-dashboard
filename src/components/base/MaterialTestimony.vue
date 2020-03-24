@@ -39,38 +39,6 @@
   </v-card>
 </template>
 
-<script>
-  export default {
-    name: 'BaseMaterialTestimony',
+<script src="./MaterialTestimony.js"/>
 
-    props: {
-      author: {
-        type: String,
-        default: '',
-      },
-      avatar: {
-        type: String,
-        default: 'https://demos.creative-tim.com/material-dashboard/assets/img/faces/card-profile1-square.jpg',
-      },
-      blurb: {
-        type: String,
-        default: '',
-      },
-      handle: {
-        type: String,
-        default: '',
-      },
-    },
-  }
-</script>
-
-<style lang="sass">
-  .v-card--testimony
-    padding-bottom: 72px
-    margin-bottom: 64px
-
-    .v-avatar
-      position: absolute
-      left: calc(50% - 64px)
-      top: calc(100% - 64px)
-</style>
+<style lang="sass" src="./MaterialTestimony.sass"/>

@@ -39,22 +39,6 @@
   </v-alert>
 </template>
 
-<script>
-  export default {
-    name: 'MaterialAlert',
-  }
-</script>
+<script src="./MaterialAlert.js"/>
 
-<style lang="sass">
-
-  .v-alert--material
-    margin-top: 32px
-
-    .v-alert__icon
-      top: -36px
-
-    .v-alert__dismissible
-      align-self: flex-start
-      margin: 0 !important
-      padding: 0 !important
-</style>
+<style lang="sass" src="./MaterialAlert.sass"/>

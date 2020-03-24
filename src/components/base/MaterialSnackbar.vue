@@ -19,53 +19,7 @@
     </base-material-alert>
   </v-snackbar>
 </template>
-<script>
-  export default {
-    name: 'BaseMaterialSnackbar',
 
-    props: {
-      dismissible: {
-        type: Boolean,
-        default: true,
-      },
-      type: {
-        type: String,
-        default: '',
-      },
-      value: Boolean,
-    },
+<script src="./MaterialSnackbar.js"/>
 
-    data () {
-      return {
-        internalValue: this.value,
-      }
-    },
-
-    watch: {
-      internalValue (val, oldVal) {
-        if (val === oldVal) return
-
-        this.$emit('input', val)
-      },
-      value (val, oldVal) {
-        if (val === oldVal) return
-
-        this.internalValue = val
-      },
-    },
-  }
-</script>
-
-<style lang="sass">
-  .v-snackbar--material
-    margin-top: 32px
-    margin-bottom: 32px
-
-    .v-alert--material,
-    .v-snack__wrapper
-      border-radius: 4px
-
-    .v-snack__content
-      overflow: visible
-      padding: 0
-</style>
+<style lang="sass" src="./MaterialSnackbar.sass"/>

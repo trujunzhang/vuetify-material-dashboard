@@ -12,32 +12,6 @@
   </v-tabs>
 </template>
 
-<script>
-  // Mixins
-  import Proxyable from 'vuetify/lib/mixins/proxyable'
+<script src="./MaterialTabs.js"/>
 
-  export default {
-    name: 'MaterialTabs',
-
-    mixins: [Proxyable],
-
-    props: {
-      color: {
-        type: String,
-        default: 'primary',
-      },
-    },
-  }
-</script>
-
-<style lang="sass">
-  .v-tabs--pill
-    .v-tab,
-    .v-tab:before
-      border-radius: 24px
-
-    &.v-tabs--icons-and-text
-      .v-tab,
-      .v-tab:before
-        border-radius: 4px
-</style>
+<style lang="sass" src="./MaterialTabs.sass"/>
