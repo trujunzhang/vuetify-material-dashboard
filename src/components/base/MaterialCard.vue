@@ -86,63 +86,6 @@
   </v-card>
 </template>
 
-<script>
-export default {
-  name: 'MaterialCard',
+<script src="./MaterialCard.js"/>
 
-  props: {
-    avatar: {
-      type: String,
-      default: ''
-    },
-    color: {
-      type: String,
-      default: 'success'
-    },
-    icon: {
-      type: String,
-      default: undefined
-    },
-    image: {
-      type: Boolean,
-      default: false
-    },
-    text: {
-      type: String,
-      default: ''
-    },
-    title: {
-      type: String,
-      default: ''
-    }
-  },
-
-  computed: {
-    classes () {
-      return {
-        'v-card--material--has-heading': this.hasHeading
-      }
-    },
-    hasHeading () {
-      return Boolean(this.$slots.heading || this.title || this.icon)
-    },
-    hasAltHeading () {
-      return Boolean(this.$slots.heading || (this.title && this.icon))
-    }
-  }
-}
-</script>
-
-<style lang="sass">
-  .v-card--material
-    &__avatar
-      position: relative
-      top: -64px
-      margin-bottom: -32px
-
-    &__heading
-      position: relative
-      top: -40px
-      transition: .3s ease
-      z-index: 1
-</style>
+<style lang="sass" src="./MaterialCard.sass"/>
