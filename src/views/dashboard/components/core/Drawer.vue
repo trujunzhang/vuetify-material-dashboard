@@ -90,4 +90,4 @@
 
 <script src="./Drawer.js"/>
 
-<style lang="sass" module src="./Drawer.module.sass">
+<style lang="sass" module src="./Drawer.sass">

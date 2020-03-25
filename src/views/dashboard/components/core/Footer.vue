@@ -43,4 +43,4 @@
 
 <script src="./Footer.js"/>
 
-<style lang="sass" module src="./Footer.module.sass">
+<style lang="sass" module src="./Footer.sass">

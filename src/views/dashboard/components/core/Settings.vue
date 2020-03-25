@@ -186,4 +186,4 @@
 
 <script src="./Settings.js"/>
 
-<style lang="sass" module src="./Settings.module.sass">
+<style lang="sass" module src="./Settings.sass">
