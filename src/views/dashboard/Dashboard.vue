@@ -19,15 +19,15 @@
 </template>
 
 <script>
-import ChartOne from '@/components/page/dashboard/chartone'
-import ChartTwo from '@/components/page/dashboard/charttwo'
-import ChartThree from '@/components/page/dashboard/chartthree'
-import StatsCardOne from '@/components/page/dashboard/statscardone.vue'
-import StatsCardTwo from '@/components/page/dashboard/statscardtwo.vue'
-import StatsCardThree from '@/components/page/dashboard/statscardthree.vue'
-import StatsCardFour from '@/components/page/dashboard/statscardfour.vue'
-import TableOne from '@/components/page/dashboard/tableone.vue'
-import TableTwo from '@/components/page/dashboard/tabletwo.vue'
+import ChartOne from '@/components/example/dashboard/chartone.vue'
+import ChartTwo from '@/components/example/dashboard/charttwo.vue'
+import ChartThree from '@/components/example/dashboard/chartthree.vue'
+import StatsCardOne from '@/components/example/dashboard/statscardone.vue'
+import StatsCardTwo from '@/components/example/dashboard/statscardtwo.vue'
+import StatsCardThree from '@/components/example/dashboard/statscardthree.vue'
+import StatsCardFour from '@/components/example/dashboard/statscardfour.vue'
+import TableOne from '@/components/example/dashboard/tableone.vue'
+import TableTwo from '@/components/example/dashboard/tabletwo.vue'
 
   export default {
     name: 'DashboardDashboard',

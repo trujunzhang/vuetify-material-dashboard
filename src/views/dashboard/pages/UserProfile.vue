@@ -23,8 +23,8 @@
 </template>
 
 <script>
-import LeftPanel from '@/components/page/userprofile/leftPanel'
-import RightPanel from '@/components/page/userprofile/rightPanel'
+import LeftPanel from '@/components/example/userprofile/leftPanel'
+import RightPanel from '@/components/example/userprofile/rightPanel'
   export default {
     name: 'UserProfile',
     components: {

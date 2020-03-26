@@ -4,11 +4,12 @@
     lg="4"
   >
     <base-material-chart-card
-      :data="dataCompletedTasksChart.data"
-      :options="dataCompletedTasksChart.options"
+      :data="emailsSubscriptionChart.data"
+      :options="emailsSubscriptionChart.options"
+      :responsive-options="emailsSubscriptionChart.responsiveOptions"
+      color="#E91E63"
       hover-reveal
-      color="info"
-      type="Line"
+      type="Bar"
     >
       <template v-slot:reveal-actions>
         <v-tooltip bottom>
@@ -46,12 +47,12 @@
         </v-tooltip>
       </template>
 
-      <h3 class="card-title font-weight-light mt-2 ml-2">
-        Completed Tasks
-      </h3>
+      <h4 class="card-title font-weight-light mt-2 ml-2">
+        Website Views
+      </h4>
 
       <p class="d-inline-flex font-weight-light ml-2 mt-1">
-        Last Last Campaign Performance
+        Last Campaign Performance
       </p>
 
       <template v-slot:actions>
@@ -61,12 +62,10 @@
         >
           mdi-clock-outline
         </v-icon>
-        <span class="caption grey--text font-weight-light">campaign sent 26 minutes ago</span>
+        <span class="caption grey--text font-weight-light">updated 10 minutes ago</span>
       </template>
     </base-material-chart-card>
   </v-col>
 </template>
 
-<script src="./chartthree.js"/>
-
-// <script lang="ts" src="./chartthree.ts"/>
+<script src="./chartone.js"/>

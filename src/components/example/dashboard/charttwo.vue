@@ -75,5 +75,3 @@
 </template>
 
 <script src="./charttwo.js"/>
-
-// <script lang="ts" src="./charttwo.ts"/>
