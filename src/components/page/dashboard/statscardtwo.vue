@@ -14,13 +14,3 @@
     />
   </v-col>
 </template>
-
-<script>
-  export default {
-    name: 'Statscardtwo'
-    }
-</script>
-
-<style scoped>
-
-</style>

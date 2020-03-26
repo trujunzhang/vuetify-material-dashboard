@@ -14,13 +14,3 @@
     />
   </v-col>
 </template>
-
-<script>
-  export default {
-    name: 'Statscardtree'
-    }
-</script>
-
-<style scoped>
-
-</style>

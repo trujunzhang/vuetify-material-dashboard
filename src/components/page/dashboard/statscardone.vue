@@ -14,13 +14,3 @@
     />
   </v-col>
 </template>
-
-<script>
-  export default {
-    name: 'Statscardone'
-    }
-</script>
-
-<style scoped>
-
-</style>
